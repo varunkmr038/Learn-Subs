@@ -1,4 +1,4 @@
-# Learn Subs - Google Chrome Extension<img align="center" width="60" height="50" src="images/logo.png">
+# Learn Subs - Google Chrome Extension<img align="center" width="60" height="50" src="images/learnsub.png">
 
 ## Learn Subs is a google chrome extension to learn English through Subtitles while watching YouTube.
 

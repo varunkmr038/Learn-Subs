@@ -13,7 +13,7 @@
       "tabs"
     ],
     "icons": {
-      "128": "logo/learnsub.png"
+      "128": "images/learnsub.png"
     },
     "background": {
       "service_worker": "background.js"
