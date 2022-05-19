@@ -1,0 +1,29 @@
+{
+    "name": "Learn Subs",
+    "manifest_version": 3,
+    "version": "1.0",
+    "description": "Learn the meaning of words while watching the videos on YouTube",
+    "action": {
+      "default_title": "Learn Subs"
+    },
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting",
+      "tabs"
+    ],
+    "icons": {
+      "128": "logo/learnsub.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [{
+      "matches": ["https://www.youtube.com/watch*"],
+      "js" : ["content.js"],
+      "run_at" : "document_idle"
+    }],
+    "host_permissions": [
+      "https://www.youtube.com/*"
+    ]
+  }
